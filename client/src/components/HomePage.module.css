@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0 2rem;
+    color: #333; /* Set base text color */
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+  }
+  
+  .name {
+    color: #111; /* Set bolder color for name */
+    font-weight: bold;
+  }
+  
+  .title {
+    color: #999;
+    margin-left: 1rem;
+  }
+  
+  .nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    margin-right: 1rem;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: inherit; /* Inherit base text color */
+    transition: color 0.3s ease; /* Add hover effect */
+  }
+  
+  .nav a:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+  .main {
+    flex: 1; /* Make main content fill remaining space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  
+  .section {
+    margin-bottom: 4rem; /* Add spacing between sections */
+  }
+  
