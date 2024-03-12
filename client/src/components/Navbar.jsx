@@ -2,24 +2,32 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
+
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    element.scrollIntoView({ behavior: 'smooth' });
+  };
+
+
+
   return (
     <nav className="navbar">
-      <h2 className="brand">Adolf Nyerere</h2>
+      <h2 className="brand"> Nyerere.com </h2>
       <ul className="nav-list">
         <li className="nav-item">
-          <Link to="/">Home</Link>
+        <Link to="/" onClick={() => scrollToSection('home-section')}>Home</Link>
         </li>
         <li className="nav-item">
-          <Link to="/about">About</Link>
+        <Link to="/about" onClick={() => scrollToSection('about-section')}>About</Link>
         </li>
         <li className="nav-item">
-          <Link to="/Blog">Blog</Link>
+        <Link to="/blog" onClick={() => scrollToSection('blog-section')}>Blog</Link>
         </li>
         <li className="nav-item">
-          <Link to="/contact">Contact</Link>
+        <Link to="/projects" onClick={() => scrollToSection('projects-section')}>Projects</Link>
         </li>
         <li className="nav-item">
-          <Link to="/projects">Projects</Link>
+        <Link to="/contact" onClick={() => scrollToSection('contact-section')}>Contact</Link>
         </li>
       </ul>
     </nav>

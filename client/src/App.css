@@ -5,21 +5,22 @@
   text-align: center;
 }
 
-body {
+body, html {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f8f8f8;
+  scroll-behavior: smooth;
 }
 
 .app-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  height: 100vh;
+  /* overflow-y: auto; */
 }
 
-
-/* components/Header.css */
 
 .header {
   background-color: #333;

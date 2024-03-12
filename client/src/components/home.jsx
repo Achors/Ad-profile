@@ -1,12 +1,15 @@
 import styles from './HomePage.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function HomePage() {
   return (
     <div className={styles.container}>
       <header className={styles.header}>
-        <h1 className={styles.heading}>
-          <span className={styles.name}>Your Name</span>
-          <span className={styles.title}>Software Engineer</span>
+          <p><span className={styles.name}> Hello, my name is</span> <br/></p>
+        <h1 className={styles.heading}>          
+          <span className={styles.name}> Aldoff Nyerere</span> <br/>
+          <span className={styles.title}>FullStack Software Developer</span>
         </h1>
       </header>
 
@@ -18,10 +21,11 @@ function HomePage() {
             </h2>
             <p>
               I am a passionate software engineer with a strong
-              focus on building high-quality, user-friendly applications.
+              focus on building high-quality, user-friendly applications. <br/>
               I have experience in various technologies and frameworks,
               and I am always eager to learn new things.
             </p>
+            
             <a href="#projects" className={styles.heroButton}>
               See My Work
             </a>
@@ -65,10 +69,25 @@ function HomePage() {
             Contact Me
           </a>
         </section>
+
+        <section className={styles.social} id="social">
+          <h2>Follow Me</h2>
+          <div className={styles.socialIcons}>
+            <a href="https://twitter.com/yourusername" className={styles.socialIcon}>
+              <FontAwesomeIcon icon={faTwitter} />
+            </a>
+            <a href="https://linkedin.com/in/yourusername" className={styles.socialIcon}>
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+            <a href="https://github.com/yourusername" className={styles.socialIcon}>
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+          </div>
+        </section>
       </main>
 
       <footer className={styles.footer}>
-        <p>© {new Date().getFullYear()} Your Name</p>
+        <p>© {new Date().getFullYear()} Nyerere</p>
       </footer>
     </div>
   );
