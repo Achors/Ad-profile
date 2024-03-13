@@ -9,9 +9,10 @@ import Home from './components/home';
 
 function App() {
   return (
+    <>    
     <Router>
-      <div className='app-container'>
       <Navbar />
+      <div className='app-container'>      
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -21,6 +22,8 @@ function App() {
         </Routes>
       </div>
     </Router>
+    
+    </>
   );
 }
 
