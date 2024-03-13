@@ -12,7 +12,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <h2 className="brand"> Nyerere.com </h2>
+      <h2 className="brand"> Aldo </h2>
       <ul className="nav-list">
         <li className="nav-item">
         <Link to="/" onClick={() => scrollToSection('home-section')}>Home</Link>

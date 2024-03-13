@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faTwitter, faLinkedin, faGithub, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import Projects from './projects';
 
 
 function HomePage() {
@@ -37,19 +38,11 @@ function HomePage() {
             {/* Add your profile image here */}
           </div>
         </section>
-
-        <section className={`${styles.section} ${styles.projects}`} id="projects">
-          <h2>Featured Projects</h2>
-          <div className={styles.projectGrid}>
-            <div className={styles.project}>
-              <h3>Project Title</h3>
-              <p>Description of the project...</p>
-              <a href="https://github.com/yourusername/project" target="_blank" rel="noopener noreferrer">GitHub</a>
-              <a href="https://project-demo.com" target="_blank" rel="noopener noreferrer">Demo</a>
-            </div>
-            {/* Add more projects */}
-          </div>
+        <section>
+          <Projects />
         </section>
+
+        
 
         <section className={`${styles.section} ${styles.skills}`} id="skills">
         <h2>Skills & Technologies</h2>
