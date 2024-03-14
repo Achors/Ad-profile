@@ -4,21 +4,25 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faTwitter, faLinkedin, faGithub, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import Projects from './projects';
+import AboutMe from './about';
 
 
 function HomePage() {
   return (
     <div className={styles.container}>
+
+    <main className={styles.main}>
+    <section className={styles.hero} id="about">
+
       <header className={styles.header}>
           <p><span className={styles.name}> Hello, my name is</span> <br/></p>
         <h1 className={styles.heading}>          
           <span className={styles.name}> Aldoff Nyerere</span> <br/>
-          <span className={styles.title}>FullStack Software Developer</span>
+          {/* <span className={styles.title}>FullStack Software Developer</span> */}
         </h1>
       </header>
-
-      <main className={styles.main}>
-        <section className={styles.hero} id="about">
+      
+        
           <div className={styles.heroContent}>
             <h2>
               I build creative and innovative software solutions.
@@ -38,7 +42,13 @@ function HomePage() {
             {/* Add your profile image here */}
           </div>
         </section>
+
         <section>
+        <h2>ABOUT ME!</h2>
+          <AboutMe />
+        </section>
+        <section>
+        <h2>Projects</h2>
           <Projects />
         </section>
 

@@ -4,7 +4,6 @@ function Projects() {
   return (
     <div>
       <section className={`${styles.section} ${styles.projects}`} id="projects">
-        <h2>Featured Projects</h2>
         <div className={styles.projectGrid}>
           <div className={styles.project}>
             <img src="https://via.placeholder.com/250" alt="Project 1" />

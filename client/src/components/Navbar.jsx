@@ -16,13 +16,11 @@ function Navbar() {
       <ul className="nav-list">
         <li className="nav-item">
         <Link to="/" onClick={() => scrollToSection('home-section')}>Home</Link>
+        <div className="progress-bar"></div>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
         <Link to="/about" onClick={() => scrollToSection('about-section')}>About</Link>
-        </li>
-        <li className="nav-item">
-        <Link to="/blog" onClick={() => scrollToSection('blog-section')}>Blog</Link>
-        </li>
+        </li> */}
         <li className="nav-item">
         <Link to="/projects" onClick={() => scrollToSection('projects-section')}>Projects</Link>
         </li>
