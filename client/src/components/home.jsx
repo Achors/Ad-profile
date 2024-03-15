@@ -35,7 +35,7 @@ function HomePage() {
             </p>
 
             <a href="#projects" className={styles.heroButton}>
-              See My Work
+            <button className={styles.herosButton}>See My Work</button>              
             </a>
           </div>
           <div className={styles.heroImage}>
@@ -43,7 +43,7 @@ function HomePage() {
           </div>
         </section>
 
-        <section>
+        <section className={styles.AboutMe}>
         <h2>ABOUT ME!</h2>
           <AboutMe />
         </section>
@@ -54,7 +54,7 @@ function HomePage() {
 
         
 
-        <section className={`${styles.section} ${styles.skills}`} id="skills">
+      <section className={`${styles.section} ${styles.skills}`} id="skills">
         <h2>Skills & Technologies</h2>
         <ul className={styles.skillList}>
           <li>
