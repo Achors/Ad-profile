@@ -47,7 +47,7 @@ function HomePage() {
         <h2>ABOUT ME!</h2>
           <AboutMe />
         </section>
-        <section>
+        <section className={styles.projects}>
         <h2>Projects</h2>
           <Projects />
         </section>
