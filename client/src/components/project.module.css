@@ -1,6 +1,13 @@
-.projects {
+
+.projects{
   margin-top: 4rem;
+  padding: 10px;
+  background-image: url('../assets/projects bcg.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
+  height: auto;
 }
 
 .projectGrid {
@@ -8,6 +15,9 @@
   flex-direction: column;
   justify-content: center;
   
+}
+.projectDescription{
+  margin: auto;
 }
 
 .project {

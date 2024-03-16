@@ -14,12 +14,12 @@
   }
   
   .heroContent{
-    border: 1px solid #ccc;
     width: 100%;
-    height: 40vh;
+    height: 45vh;
     text-align: center;
-    margin: 20px;
-    padding-top: 20px;
+    margin: 18px;
+    padding-top: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
   }
 
   .header {
@@ -50,7 +50,7 @@
   }
   .AboutMe{
     padding: 15px;
-    background-image: url('../assets/about bcg.webp');
+    background-image: url('../assets/overal bgd.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -98,7 +98,6 @@
   
   section {
     flex: 1 auto;
-    border: 1px solid blueviolet;
     width: 98vw;
     height: auto;
   }
@@ -113,7 +112,7 @@
   .skills {
     text-align: center;
     padding: 10px;
-    background-image: url('../assets/about bcg.webp');
+    background-image: url('../assets/adolf bcg.avif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -163,7 +162,7 @@
   background-position: center;
   width: 100%;
   height: 40vh;
-  opacity: 0.9;
+  
 } 
 
 .contactText {
@@ -308,6 +307,9 @@
   .getAdolf{
     display: flex;
     flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 95%;
+    margin: auto;
   }
   .getMe{
     display: flex;

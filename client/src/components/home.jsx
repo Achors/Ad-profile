@@ -152,10 +152,10 @@ function HomePage() {
                 <div className={styles.socialMedia}>
                 <h3 className={styles.socialTitle}>Connect with Me:</h3>
                 <div className={styles.socialIcons}>
-                  <a href="https://twitter.com/yourusername" className={styles.socialIcon}>
+                  <a href="https://twitter.com/earth-tenant" className={styles.socialIcon}>
                     <FontAwesomeIcon icon={faTwitter} />
                   </a>
-                  <a href="https://linkedin.com/in/yourusername" className={styles.socialIcon}>
+                  <a href="https://linkedin.com/in/Adolf-nyerere" className={styles.socialIcon}>
                     <FontAwesomeIcon icon={faLinkedin} />
                   </a>
                   <a href="https://github.com/yourusername" className={styles.socialIcon}>
