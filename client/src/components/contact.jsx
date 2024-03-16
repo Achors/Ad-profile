@@ -52,7 +52,7 @@ function Contact() {
         <a href="https://linkedin.com/in/adolf-nyerere" className={styles.socialIcon}>
         <FontAwesomeIcon icon={faLinkedin} /> <span> Linkedin</span>
         </a>
-        <a href="https://github.com/yourusername" className={styles.socialIcon}>
+        <a href="https://github.com/Achors" className={styles.socialIcon}>
         <FontAwesomeIcon icon={faGithub} /> <span> GitHub</span>
         </a>
         </div>

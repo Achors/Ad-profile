@@ -158,7 +158,7 @@ function HomePage() {
                   <a href="https://linkedin.com/in/Adolf-nyerere" className={styles.socialIcon}>
                     <FontAwesomeIcon icon={faLinkedin} />
                   </a>
-                  <a href="https://github.com/yourusername" className={styles.socialIcon}>
+                  <a href="https://github.com/Achors" className={styles.socialIcon}>
                     <FontAwesomeIcon icon={faGithub} />
                   </a>
                 </div>
