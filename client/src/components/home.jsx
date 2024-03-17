@@ -141,24 +141,24 @@ function HomePage() {
               </div>
               </div>
               <div className={styles.contactInfo}>
-              <a href="mailto:adolfnyerere@gmail.com" className={styles.actionButton}>
+              <a href="mailto:adolfnyerere@gmail.com" target="_blank" className={styles.actionButton}>
                   <FontAwesomeIcon icon={faEnvelope} />
                   <span>  Email Me</span>
                 </a>
-                <a href="https://wa.me/1612399-6004" className={styles.actionButton}>
+                <a href="https://wa.me/1612399-6004" target="_blank" className={styles.actionButton}>
                   <FontAwesomeIcon icon={faWhatsapp} />
                   <span>  WhatsApp Me</span>
                 </a>
                 <div className={styles.socialMedia}>
                 <h3 className={styles.socialTitle}>Connect with Me:</h3>
                 <div className={styles.socialIcons}>
-                  <a href="https://twitter.com/earth-tenant" className={styles.socialIcon}>
+                  <a href="https://twitter.com/earth-tenant" target="_blank" className={styles.socialIcon}>
                     <FontAwesomeIcon icon={faTwitter} />
                   </a>
-                  <a href="https://linkedin.com/in/Adolf-nyerere" className={styles.socialIcon}>
+                  <a href="https://linkedin.com/in/Adolf-nyerere" target="_blank" className={styles.socialIcon}>
                     <FontAwesomeIcon icon={faLinkedin} />
                   </a>
-                  <a href="https://github.com/Achors" className={styles.socialIcon}>
+                  <a href="https://github.com/Achors" target="_blank" className={styles.socialIcon}>
                     <FontAwesomeIcon icon={faGithub} />
                   </a>
                 </div>

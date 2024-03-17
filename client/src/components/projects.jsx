@@ -30,7 +30,7 @@ function Projects() {
               our dedication to innovation and client satisfaction. 
               Let us elevate your <br /> digital presence together</p>
               <div className={styles.projectLinks}>
-                <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+                <a href="https://event-project.onrender.com/event" target="_blank" rel="noopener noreferrer">View Project</a>
               </div>
             </div>
           </div>
@@ -41,7 +41,7 @@ function Projects() {
               <p className={styles.projectDescription}>A Sexual Harrasment Report Platform (clone). <br />WBS exemplifies our 
               dedication to innovation and client satisfaction. <br />Let us elevate your digital presence together</p>
               <div className={styles.projectLinks}>
-                <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+                <a href="https://www.sexualharassment.com" target="_blank" rel="noopener noreferrer">View Project</a>
               </div>
             </div>
           </div>
