@@ -22,10 +22,10 @@ function Navbar() {
         <Link to="/about" onClick={() => scrollToSection('about-section')}>About</Link>
         </li> */}
         <li className="nav-item">
-        <Link to="/projects" onClick={() => scrollToSection('projects-section')}>Projects</Link>
+        <Link to="/#projects" onClick={() => scrollToSection('projects-section')}>Projects</Link>
         </li>
         <li className="nav-item">
-        <Link to="/contact" onClick={() => scrollToSection('contact-section')}>Contact</Link>
+        <Link to="/contact" > Contact</Link>
         </li>
       </ul>
     </nav>
