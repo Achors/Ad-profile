@@ -62,11 +62,21 @@
 .project a {
   display: inline-block;
   margin-right: 1rem;
-  color: #333;
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
 }
 
 .project a:hover {
   color: #007bff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  width: 150px;
+  height: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .project {
+    width: 70%; /* Adjusted width for larger screens */
+  }
 }
