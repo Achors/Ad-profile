@@ -1,20 +1,12 @@
 .container {
-  margin-top: 8vh;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  font-family: sans-serif;
-  padding: 20px; /* Adjust padding for mobile with media query */
-  width: 100%;
-  color: #333;
-}
-
-/* Media query for smaller screens (adjust max-width as needed) */
-@media only screen and (max-width: 768px) {
-  .container {
-    padding: 10px; /* Smaller padding for mobile */
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: sans-serif;
+    width: 100%;
+    color: #fff;
   }
-}
   .main {
     flex: 1;
     display: flex;
@@ -46,21 +38,15 @@
     font-size: 2.5rem;
   }
 
-  .hero {
+  .hero{
     background-image: url('../assets/laptop bcg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-  
-    /* Adjust height for mobile screens with media query */
     height: 88vh;
-  }
-  
-  @media only screen and (max-width: 768px) {
-    .hero {
-      height: 60vh; /* Reduce hero height for mobile */
-    }
+    
+    
   }
   .AboutMe{
     padding: 15px;
@@ -152,7 +138,7 @@
   .progressContainer {
     width: 100%;
     height: 30px;
-    background-color: #ddd;
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     overflow: hidden;
     margin: 10px;
@@ -328,4 +314,26 @@
   .getMe{
     display: flex;
     flex-direction: row;
+  }
+
+
+
+
+  @media only screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+    }
+  
+    .main {
+      align-items: center;
+    }
+  
+    .section {
+      height: auto;
+    }
+  
+    .skills,
+    .contact {
+      height: auto;
+    }
   }

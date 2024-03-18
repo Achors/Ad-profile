@@ -10,7 +10,7 @@ body, html {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f8f8f8;
+  background-color: rgb(0, 0, 0);
   scroll-behavior: smooth;
 }
 
@@ -19,7 +19,7 @@ body, html {
   margin: 0;
   padding: 0;
   height: auto;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -61,11 +61,11 @@ body, html {
 }
 
 .about h2 {
-  color: #333;
+  color: #fff;
 }
 
 .about p {
-  color: #666;
+  color: #fff;
 }
 .about-me {
   display: flex;
@@ -129,7 +129,7 @@ body, html {
 }
 
 .projects h2 {
-  color: #333;
+  color: #fff;
 }
 
 .projects .project {
@@ -137,11 +137,11 @@ body, html {
 }
 
 .projects .project h3 {
-  color: #666;
+  color: #fff;
 }
 
 .projects .project p {
-  color: #888;
+  color: #fff;
 }
 
 /* Contact section styles */
@@ -150,7 +150,7 @@ body, html {
 }
 
 .contact h2 {
-  color: #333;
+  color: #fff;
 }
 
 .contact form {

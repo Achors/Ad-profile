@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import './about.css';
-import laptopbcg from '../assets/adolfu2.jpg';
+import laptopbcg from '../assets/adloo2 bcg.jpg';
 import ResumePDF from '../assets/Adolf-C Vitae.pdf'; 
 
 function AboutMe() {
