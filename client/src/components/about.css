@@ -40,14 +40,14 @@
   .job-title {
     font-size: 1.2rem;
     font-weight: bold;
-    color: #333;
+    color: #fff;
   }
   
   .description {
     text-align: justify;
     line-height: 1.5;
     margin-bottom: 1rem;
-    color: #666;
+    color: #fff;
   }
   
   .toggle-btn {
@@ -85,7 +85,7 @@
     border: 1px solid #ddd;
     border-radius: 5px; /* Rounded corners for individual cards */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    background-color: #fff; /* White background for cards */
+    background-color: rgba(0, 0, 0, 0.1); /* White background for cards */
   }
   
   .experience-card h3,
@@ -100,7 +100,7 @@
   }
   
   .experience-card.education {
-    background-color: #eee; /
+    background-color: rgba(0, 0, 0, 0.1); /
   }
   
   .download-resume-btn {
